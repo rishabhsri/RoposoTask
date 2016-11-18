@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181FF7FF1DDDB1A4008C046B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF7FE1DDDB1A4008C046B /* main.m */; };
+		181FF8021DDDB1A4008C046B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8011DDDB1A4008C046B /* AppDelegate.m */; };
+		181FF80A1DDDB1A4008C046B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181FF8091DDDB1A4008C046B /* Assets.xcassets */; };
+		181FF80D1DDDB1A4008C046B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181FF80B1DDDB1A4008C046B /* LaunchScreen.storyboard */; };
+		181FF8171DDDB7AC008C046B /* StroryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181FF8161DDDB7AC008C046B /* StroryView.xib */; };
+		184FB4271DDDBC5600DB2619 /* StroyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FB4261DDDBC5600DB2619 /* StroyViewController.m */; };
+		184FB4291DDDC25A00DB2619 /* iOS%2FAndroidData.json in Resources */ = {isa = PBXBuildFile; fileRef = 184FB4281DDDC25A00DB2619 /* iOS%2FAndroidData.json */; };
+		184FB42D1DDDCCBE00DB2619 /* StoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FB42B1DDDCCBE00DB2619 /* StoryDetailViewController.m */; };
+		184FB42E1DDDCCBE00DB2619 /* StoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184FB42C1DDDCCBE00DB2619 /* StoryDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181FF7FA1DDDB1A4008C046B /* RoposoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181FF7FE1DDDB1A4008C046B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181FF8001DDDB1A4008C046B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181FF8011DDDB1A4008C046B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181FF8091DDDB1A4008C046B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181FF80C1DDDB1A4008C046B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181FF80E1DDDB1A4008C046B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181FF8161DDDB7AC008C046B /* StroryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StroryView.xib; path = ../StroryView.xib; sourceTree = "<group>"; };
+		184FB4251DDDBC5600DB2619 /* StroyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StroyViewController.h; path = ../StroyViewController.h; sourceTree = "<group>"; };
+		184FB4261DDDBC5600DB2619 /* StroyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StroyViewController.m; path = ../StroyViewController.m; sourceTree = "<group>"; };
+		184FB4281DDDC25A00DB2619 /* iOS%2FAndroidData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "iOS%2FAndroidData.json"; sourceTree = "<group>"; };
+		184FB42A1DDDCCBE00DB2619 /* StoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryDetailViewController.h; sourceTree = "<group>"; };
+		184FB42B1DDDCCBE00DB2619 /* StoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryDetailViewController.m; sourceTree = "<group>"; };
+		184FB42C1DDDCCBE00DB2619 /* StoryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181FF7F71DDDB1A4008C046B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181FF7F11DDDB1A4008C046B = {
+			isa = PBXGroup;
+			children = (
+				181FF7FC1DDDB1A4008C046B /* RoposoTask */,
+				181FF7FB1DDDB1A4008C046B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181FF7FB1DDDB1A4008C046B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181FF7FA1DDDB1A4008C046B /* RoposoTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181FF7FC1DDDB1A4008C046B /* RoposoTask */ = {
+			isa = PBXGroup;
+			children = (
+				181FF8001DDDB1A4008C046B /* AppDelegate.h */,
+				181FF8011DDDB1A4008C046B /* AppDelegate.m */,
+				184FB4251DDDBC5600DB2619 /* StroyViewController.h */,
+				184FB4261DDDBC5600DB2619 /* StroyViewController.m */,
+				181FF8161DDDB7AC008C046B /* StroryView.xib */,
+				184FB42A1DDDCCBE00DB2619 /* StoryDetailViewController.h */,
+				184FB42B1DDDCCBE00DB2619 /* StoryDetailViewController.m */,
+				184FB42C1DDDCCBE00DB2619 /* StoryDetailViewController.xib */,
+				181FF8091DDDB1A4008C046B /* Assets.xcassets */,
+				181FF80B1DDDB1A4008C046B /* LaunchScreen.storyboard */,
+				181FF80E1DDDB1A4008C046B /* Info.plist */,
+				184FB4281DDDC25A00DB2619 /* iOS%2FAndroidData.json */,
+				181FF7FD1DDDB1A4008C046B /* Supporting Files */,
+			);
+			path = RoposoTask;
+			sourceTree = "<group>";
+		};
+		181FF7FD1DDDB1A4008C046B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181FF7FE1DDDB1A4008C046B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181FF7F91DDDB1A4008C046B /* RoposoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181FF8111DDDB1A4008C046B /* Build configuration list for PBXNativeTarget "RoposoTask" */;
+			buildPhases = (
+				181FF7F61DDDB1A4008C046B /* Sources */,
+				181FF7F71DDDB1A4008C046B /* Frameworks */,
+				181FF7F81DDDB1A4008C046B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoposoTask;
+			productName = RoposoTask;
+			productReference = 181FF7FA1DDDB1A4008C046B /* RoposoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181FF7F21DDDB1A4008C046B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "V group Inc";
+				TargetAttributes = {
+					181FF7F91DDDB1A4008C046B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NQL478KXAA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 181FF7F51DDDB1A4008C046B /* Build configuration list for PBXProject "RoposoTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181FF7F11DDDB1A4008C046B;
+			productRefGroup = 181FF7FB1DDDB1A4008C046B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181FF7F91DDDB1A4008C046B /* RoposoTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181FF7F81DDDB1A4008C046B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181FF8171DDDB7AC008C046B /* StroryView.xib in Resources */,
+				181FF80D1DDDB1A4008C046B /* LaunchScreen.storyboard in Resources */,
+				184FB4291DDDC25A00DB2619 /* iOS%2FAndroidData.json in Resources */,
+				184FB42E1DDDCCBE00DB2619 /* StoryDetailViewController.xib in Resources */,
+				181FF80A1DDDB1A4008C046B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181FF7F61DDDB1A4008C046B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FB4271DDDBC5600DB2619 /* StroyViewController.m in Sources */,
+				184FB42D1DDDCCBE00DB2619 /* StoryDetailViewController.m in Sources */,
+				181FF8021DDDB1A4008C046B /* AppDelegate.m in Sources */,
+				181FF7FF1DDDB1A4008C046B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181FF80B1DDDB1A4008C046B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181FF80C1DDDB1A4008C046B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181FF80F1DDDB1A4008C046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181FF8101DDDB1A4008C046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181FF8121DDDB1A4008C046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NQL478KXAA;
+				INFOPLIST_FILE = RoposoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgroup.RoposoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181FF8131DDDB1A4008C046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NQL478KXAA;
+				INFOPLIST_FILE = RoposoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgroup.RoposoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181FF7F51DDDB1A4008C046B /* Build configuration list for PBXProject "RoposoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FF80F1DDDB1A4008C046B /* Debug */,
+				181FF8101DDDB1A4008C046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181FF8111DDDB1A4008C046B /* Build configuration list for PBXNativeTarget "RoposoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181FF8121DDDB1A4008C046B /* Debug */,
+				181FF8131DDDB1A4008C046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181FF7F21DDDB1A4008C046B /* Project object */;
+}
